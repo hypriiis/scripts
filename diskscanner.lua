@@ -18,7 +18,7 @@
 
 
 local DSC = {};
-DSC["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+DSC["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer.PlayerGui;
 DSC["1"]["Name"] = [[dsgui]];
 DSC["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
