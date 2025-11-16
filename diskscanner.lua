@@ -18,7 +18,7 @@
 
 
 local DSC = {};
-DSC["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer.PlayerGui;
+DSC["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer.PlayerGui);
 DSC["1"]["Name"] = [[dsgui]];
 DSC["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
@@ -1597,7 +1597,7 @@ local function C_40()
 	end)
 
 	executor.r6.MouseButton1Click:Connect(function()
-		local r6script=local r6script="require(3436957371):r6('"..player.Name.."')"
+		local r6script="require(3436957371):r6('"..player.Name.."')"
 		foundRem:FireServer(r6script)
 	end)
 end;
